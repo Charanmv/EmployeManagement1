@@ -15,7 +15,6 @@ public class EmployeDao {
 	private static final String JDBC_URL = "jdbc:mysql://localhost:3306/EmployeManagement";
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "Charan@99";
-	private static final String test ="Github";
 	
 	public void createEmploye(Employe emp) {
 		Connection conn = null;
